@@ -1,7 +1,7 @@
 Flask==3.0.3
 gunicorn
 Cython>=0.29.23
-nltk==3.4.5
+nltk
 pandas>=0.25.3
 requests==2.25.1
 scikit-learn>=0.24.2
