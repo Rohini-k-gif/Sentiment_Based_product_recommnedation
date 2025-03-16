@@ -3,6 +3,7 @@ from flask import Flask,render_template,request
 import model 
 app = Flask('__name__')
 
+
 valid_userid = ['bob','michael','lisa','frankie w','joshua','dorothy w','rebecca','walker557','samantha','raeanne','kimmie','cassie','moore222']
 @app.route('/')
 def view():
